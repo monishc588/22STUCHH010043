@@ -1,4 +1,3 @@
-// App.jsx
 import React, { useState } from 'react';
 import UrlShortenerForm from './components/UrlShortenerForm';
 import UrlShortenerResults from './components/UrlShortenerResults';

@@ -1,10 +1,7 @@
-// components/LoggingProvider.jsx
 import React, { createContext, useContext } from 'react';
 
-// Replace this with your actual logging middleware
 const customLogger = {
   log: (message, data) => {
-    // Example: send logs to backend
     fetch('/api/log', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

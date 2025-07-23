@@ -1,4 +1,3 @@
-// components/StatisticsPage.jsx
 import React, { useEffect, useState } from 'react';
 import { Table, TableHead, TableRow, TableCell, TableBody, Typography } from '@mui/material';
 import { getStatistics } from '../api/statisticsApi';
